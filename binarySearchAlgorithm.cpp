@@ -2,8 +2,10 @@
 using namespace std;
 
 int binarySearch(int* arr, int size, int key){
-    int low = 0, high = size-1;
-    int mid = (low+high)/2;
+    int low = 0, high = size-1, mid;
+    // mid = (low+high)/2;
+    //  or
+    mid = low + (high - low)/2;
     while(low <= high){
         if(key == arr[mid])
             return mid;
