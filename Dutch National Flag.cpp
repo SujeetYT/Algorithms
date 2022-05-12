@@ -1,4 +1,6 @@
 // Dutch National Flag Algorithm
+// Also Known as 0's 1's and 2's Algorithm
+
 /*
 3 pointers le liya low, medium, high ke name se
 low aur medium ko 0th index se initialize karke point diya
